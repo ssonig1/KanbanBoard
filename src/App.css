@@ -1,0 +1,121 @@
+#root{
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+.body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 10%;
+}
+.header{
+  flex:1;
+padding:10px;
+}
+
+button{
+  background:  #f8f8fa;;
+  border: 1px solid silver;
+  border-radius: 3px;
+  box-shadow: 0 0 3px #505050;
+  display: flex;
+  justify-content: space-between;
+}
+.selective{
+  position: absolute;
+  background-color: #f8f8fa;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  z-index: 10;
+  object-fit: contain;
+  color: #b1b1b1;
+  
+}
+.options{
+  display: flex;
+  justify-content: space-between;
+  gap:25px;
+  margin:5px;
+}
+
+.arrow {
+  border:  solid black;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-left: 4px;
+  margin-top: 2px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  position: relative;
+}
+img{
+  margin: 0 2px 0 2px;
+  width: 15px;
+}
+
+.container{
+  flex:2;
+  display: flex;
+  background-color: #f4f5f8;
+  margin: 0 2px 0 2px;
+  gap :10px;
+  justify-content: space-around;
+  padding : 10px;
+  flex-wrap: wrap;
+}
+.card{
+  width: 200px;
+}
+.cardNav{
+  border : none;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.cardContent{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap : 10px;
+}
+.data{
+  background: #fff;
+  border-radius: 3px;
+  padding: 10px;
+  box-shadow: 0 0 3px #505050;
+  display: flex;
+  flex-direction: column;
+
+  font-size: 14px;
+  gap:10px
+}
+.id{
+  display: flex;
+  justify-content: space-between;
+  color: #b1b1b1;
+}
+.cardtag{
+  display: flex;
+  justify-content: flex-start;
+  gap :5px;
+}
+.tag{
+  border: 1px solid silver;
+  border-radius: 5px;
+  padding: 2px 8px;
+  width: -webkit-max-content;
+  width: max-content;
+}
+.right{
+  font-weight:1000;
+  display: flex;
+  gap:5px
+}
+.dotted{
+  position: relative;
+  margin-top: -5px;
+}
